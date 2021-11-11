@@ -7,6 +7,7 @@ public class Program
 		int a = 0;
 		int b = 20;
 		int c = 10;
+		
         Console.WriteLine("--------");
 	    Console.WriteLine("Combinacion aacb ");
 		Console.Write(a);
