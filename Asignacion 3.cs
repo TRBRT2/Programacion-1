@@ -156,10 +156,98 @@ public class Program
                             Console.WriteLine("Su perro debe comer 370 gramos.");
                         }
                     }
-                    break;
+                    if (peso > 25 && peso <= 32)
+                    {
+                        if (activiedad <= 2)
+                        {
+                            Console.WriteLine("Su perro debe comer 300 gramos.");
+                        }
+                        else if (activiedad == 3 )
+                        {
+                            Console.WriteLine("Su perro debe comer 400 gramos.");
+                        }
+                        else if (activiedad == 4)
+                        {
+                            Console.WriteLine("Su perro debe comer 445 gramos.");
+                        }
+                        else if (activiedad >= 5)
+                        {
+                            Console.WriteLine("Su perro debe comer 450 gramos.");
+                        }
+                    }
+                    if (peso > 32 && peso <= 40)
+                    {
+                        if (activiedad <= 2)
+                        {
+                            Console.WriteLine("Su perro debe comer 355 gramos.");
+                        }
+                        else if (activiedad == 3 )
+                        {
+                            Console.WriteLine("Su perro debe comer 475 gramos.");
+                        }
+                        else if (activiedad == 4)
+                        {
+                            Console.WriteLine("Su perro debe comer 525 gramos.");
+                        }
+                        else if (activiedad >= 5)
+                        {
+                            Console.WriteLine("Su perro debe comer 530 gramos.");
+                        }
+                    }
+                    if (peso > 40 && peso <= 50)
+                    {
+                        if (activiedad <= 2)
+                        {
+                            Console.WriteLine("Su perro debe comer 405 gramos.");
+                        }
+                        else if (activiedad == 3 )
+                        {
+                            Console.WriteLine("Su perro debe comer 545 gramos.");
+                        }
+                        else if (activiedad == 4)
+                        {
+                            Console.WriteLine("Su perro debe comer 610 gramos.");
+                        }
+                        else if (activiedad >= 5)
+                        {
+                            Console.WriteLine("Su perro debe comer 625 gramos.");
+                        }
+                    }
+                    if (peso > 50 && peso <= 60)
+                    {
+                        if (activiedad <= 2)
+                        {
+                            Console.WriteLine("Su perro debe comer 450 gramos.");
+                        }
+                        else if (activiedad == 3 )
+                        {
+                            Console.WriteLine("Su perro debe comer 605 gramos.");
+                        }
+                        else if (activiedad >= 4)
+                        {
+                            Console.WriteLine("Su perro debe comer 685 gramos.");
+                        }
+                    }
+                    if (peso > 60 && peso <= 70)
+                    {
+                        if (activiedad <= 2)
+                        {
+                            Console.WriteLine("Su perro debe comer 485 gramos.");
+                        }
+                        else if (activiedad >= 3 )
+                        {
+                            Console.WriteLine("Su perro debe comer 670 gramos.");
+                        }
+                    }
+                    if (peso > 70 && peso <= 90)
+                    {
+                        {
+                            Console.WriteLine("Su perro debe comer 580 gramos.");
+                        }
+                    }
                     break;
             }
-            Console.WriteLine("Si desea volver a utilizar el programa escriba 1\n si quiere cerrar el programa escriba 2");
+            Console.WriteLine("Si desea volver a utilizar el programa escriba 1\nSi quiere cerrar el programa escriba 2");
             a = Console.ReadLine();
             continuar = Convert.ToInt32(a);
 
