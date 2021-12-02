@@ -105,6 +105,75 @@ public class Program
                         }
 
                     }
+                    if (peso >= 25 && peso <= 40)
+                    {
+
+                        switch (activiedad)
+                        {
+                            case 1:
+                                Console.WriteLine("Su perro debe comer entre 380 y 535 gramos.");
+                                break;
+                            case 2:
+                                Console.WriteLine("Su perro debe comer entre 330 y 475 gramos.");
+                                break;
+                            case 3:
+                                Console.WriteLine("Su perro debe comer entre 285 y 410 gramos.");
+                                break;
+                        }
+
+                    }
+                    if (peso >= 40 && peso <= 55)
+                    {
+
+                        switch (activiedad)
+                        {
+                            case 1:
+                                Console.WriteLine("Su perro debe comer entre 535 y 680 gramos.");
+                                break;
+                            case 2:
+                                Console.WriteLine("Su perro debe comer entre 475 y 600 gramos.");
+                                break;
+                            case 3:
+                                Console.WriteLine("Su perro debe comer entre 410 y 520 gramos.");
+                                break;
+                        }
+
+                    }
+                    if (peso >= 55 && peso <= 70)
+                    {
+
+                        switch (activiedad)
+                        {
+                            case 1:
+                                Console.WriteLine("Su perro debe comer entre 680 y 820 gramos.");
+                                break;
+                            case 2:
+                                Console.WriteLine("Su perro debe comer entre 600 y 720 gramos.");
+                                break;
+                            case 3:
+                                Console.WriteLine("Su perro debe comer entre 520 y 620 gramos.");
+                                break;
+                        }
+
+                    }
+                    if (peso >= 70 && peso <= 90)
+                    {
+
+                        switch (activiedad)
+                        {
+                            case 1:
+                                Console.WriteLine("Su perro debe comer entre 820 y 985 gramos.");
+                                break;
+                            case 2:
+                                Console.WriteLine("Su perro debe comer entre 720 y 870 gramos.");
+                                break;
+                            case 3:
+                                Console.WriteLine("Su perro debe comer entre 620 y 750 gramos.");
+                                break;
+                        }
+
+                    }
+                    
                     break;
 
                 case 2:
