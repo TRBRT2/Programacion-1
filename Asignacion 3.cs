@@ -37,20 +37,53 @@ public class Program
                     a = Console.ReadLine();
                     activiedad = Convert.ToInt32(a);
 
-
-                    if (peso <= 5 && peso >= 2)
+                    if (peso < 2)
                     {
-
+                    Console.WriteLine("Su perro es muy ligero para el sistema, para mas informacion consulte con su veterinario");
+                    }
+                    if (peso >= 2 && peso <=5 )
+                    {
                         switch (activiedad)
                         {
                             case 1:
-                                Console.WriteLine("Su perro debe comer entre 60 y 115 gramos de alimento.");
+                                Console.WriteLine("Su perro debe comer entre 60 y 115 gramos.");
                                 break;
                             case 2:
                                 Console.WriteLine("Su perro debe comer entre 55 y 100 gramos.");
                                 break;
                             case 3:
                                 Console.WriteLine("Su perro debe comer entre 45 y 85 gramos.");
+                                break;
+                        }
+                    }
+                    if (peso >= 5 && peso <= 10)
+                    {
+                        switch (activiedad)
+                        {
+                            case 1:
+                                Console.WriteLine("Su perro debe comer entre 115 y 190 gramos.");
+                                break;
+                            case 2:
+                                Console.WriteLine("Su perro debe comer entre 110 y 170 gramos.");
+                                break;
+                            case 3:
+                                Console.WriteLine("Su perro debe comer entre 85 y 145 gramos.");
+                                break;
+                        }
+                    }
+                    if (peso >= 10 && peso <= 15)
+                    {
+
+                        switch (activiedad)
+                        {
+                            case 1:
+                                Console.WriteLine("Su perro debe comer entre 115 y 190 gramos.");
+                                break;
+                            case 2:
+                                Console.WriteLine("Su perro debe comer entre 110 y 170 gramos.");
+                                break;
+                            case 3:
+                                Console.WriteLine("Su perro debe comer entre 85 y 145 gramos.");
                                 break;
                         }
 
